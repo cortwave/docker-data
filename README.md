@@ -5,6 +5,7 @@ Dockerized Jupyter notebook with ML tools
 
 - Python 3.5
 - [Jupyter notebook](https://github.com/jupyter/notebook)
+- [xgboost](https://github.com/dmlc/xgboost)
 - [Vowpal Wabbit v8.3.2](https://github.com/JohnLangford/vowpal_wabbit)
 - [tqdm](https://github.com/noamraph/tqdm)
 - [numpy](http://www.numpy.org/)
