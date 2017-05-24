@@ -9,6 +9,7 @@ Dockerized Jupyter notebook with ML tools
 - [tqdm](https://github.com/noamraph/tqdm)
 - [numpy](http://www.numpy.org/)
 - [sckit-learn](http://scikit-learn.org/stable/index.html)
+- [scikit-plot](https://github.com/reiinakano/scikit-plot)
 - [scipy](https://www.scipy.org/)
 - [pandas](http://pandas.pydata.org/)
 - [matplotlib](http://matplotlib.org/)

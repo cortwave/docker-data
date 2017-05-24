@@ -13,7 +13,9 @@ RUN pip3 install jupyter && jupyter notebook --allow-root --generate-config -y
 
 RUN echo "c.NotebookApp.ip = '127.0.0.1'" >> ~/.jupyter/jupyter_notebook_config.py
 
-RUN pip3 install joblib luigi watermark
+RUN apt-get install -y apt-utils python3-tk
+
+RUN pip3 install joblib luigi watermark scikit-plot
 
 EXPOSE 8888
 ENTRYPOINT ["jupyter", "notebook", "--allow-root", "--ip='*'"]
